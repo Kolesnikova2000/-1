@@ -1,0 +1,10 @@
+Сайт: most-beauty.ru
+
+1.	alert( "firstChild: " + document.head.firstChild )
+2.	alert( "nextSibling: " + document.head.nextSibling )
+3.	alert( "lastElementChild: " + document.head.lastElementChild )
+4.	alert( "class: " + document.body.getElementsByClassName("container") 
+5.	alert( "id: " + document.getElementById("bodyLoader") )
+6.	alert ("элемент внутри элемента: " + document.querySelector('div.class p'))
+7.	alert( "Селектор на атрибут: " + document.querySelector('a[href="javascript:"]') )
+8.	alert( "Псевдокласс: " + document.querySelector(':link') )
